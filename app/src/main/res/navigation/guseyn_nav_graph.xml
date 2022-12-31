@@ -3,11 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/guseyn_nav_graph"
-    app:startDestination="@id/slotFragment">
+    app:startDestination="@id/onboardingFragment">
 
     <fragment
         android:id="@+id/slotFragment"
         android:name="com.example.guseynapp300promaxultra.presentation.ui.screens.slot.SlotFragment"
         android:label="fragment_slot"
         tools:layout="@layout/fragment_slot" />
+    <fragment
+        android:id="@+id/onboardingFragment"
+        android:name="com.example.guseynapp300promaxultra.presentation.ui.screens.onboarding.OnboardingFragment"
+        android:label="fragment_onboarding"
+        tools:layout="@layout/fragment_onboarding" />
 </navigation>

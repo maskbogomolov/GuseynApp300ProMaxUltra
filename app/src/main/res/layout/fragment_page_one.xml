@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".presentation.ui.screens.onboarding.pages.PageOneFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Добро пожаловать в GuseynApp3000ProMaxUltra, дорогие друзья."
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/page_one"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="8dp"
+        android:text="СОБЫЫЫЫТИЕ ВЕКА, МОМЕНТ ВЫСШЕГО СПОРТИВНОГО МИГА ДЛЯ КОТОРОГО МЫ ЗДЕЕЕСЬ СОБРАЛИСЬ. ЕСЛИ ВЫ ЭТО ЧИТАЕТЕ ЗНАЧИТ У ВАС ПОЯВИЛАСЬ ВОЗМОЖНОСТЬ ВЫИГРАТЬ ПРИЗ МИРА ОТ ЧЕЛОВЕКА ДЛЯ КОТОРОГО ПРИДУМАЛИ МЕД, ОТ ЧЕЛОВЕКА - ПАРАЛЛЕЛЬНАЯ ВСЕЛЕННАЯ, ЕСЛИ МЕРИТЬ ПО ЛИНЕЙКЕ"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+</LinearLayout>
