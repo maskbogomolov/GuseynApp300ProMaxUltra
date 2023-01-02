@@ -1,4 +1,4 @@
-package com.example.guseynapp300promaxultra.presentation.ui.screens.slot
+package com.example.guseynapp300promaxultra.presentation.ui.slot
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,7 +6,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.guseynapp300promaxultra.R
-
 
 class SlotFragment : Fragment() {
 

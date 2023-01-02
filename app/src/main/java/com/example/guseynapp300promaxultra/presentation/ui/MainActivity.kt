@@ -1,8 +1,9 @@
-package com.example.guseynapp300promaxultra
+package com.example.guseynapp300promaxultra.presentation.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.guseynapp300promaxultra.utils.EdgeToEdgeDecorator
+import com.example.guseynapp300promaxultra.R
+import com.example.guseynapp300promaxultra.presentation.common.utils.EdgeToEdgeDecorator
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "GuseynApp300ProMaxUltra"
-include ':app'
+include (":app")

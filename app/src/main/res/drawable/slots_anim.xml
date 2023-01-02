@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/slot_item1"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/slot_item2"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/slot_item3"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/slot_item4"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/slot_item5"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/slot_item6"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/slot_item7"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/slot_item8"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/slot_item9"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/slot_item10"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/slot_item11"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/slot_item12"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/slot_item13"
+        android:duration="100" />
+</animation-list>

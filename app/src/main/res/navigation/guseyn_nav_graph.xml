@@ -7,12 +7,12 @@
 
     <fragment
         android:id="@+id/slotFragment"
-        android:name="com.example.guseynapp300promaxultra.presentation.ui.screens.slot.SlotFragment"
+        android:name="com.example.guseynapp300promaxultra.presentation.ui.slot.SlotFragment"
         android:label="fragment_slot"
         tools:layout="@layout/fragment_slot" />
     <fragment
         android:id="@+id/onboardingFragment"
-        android:name="com.example.guseynapp300promaxultra.presentation.ui.screens.onboarding.OnboardingFragment"
+        android:name="com.example.guseynapp300promaxultra.presentation.ui.onboarding.OnboardFragment"
         android:label="fragment_onboarding"
         tools:layout="@layout/fragment_onboarding" />
 </navigation>

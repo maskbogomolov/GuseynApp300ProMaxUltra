@@ -1,5 +1,15 @@
 <resources>
     <string name="app_name">GuseynApp300ProMaxUltra</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="slots_scores">ОЧКИ:</string>
+    <string name="slots_confirm">Подтвердить</string>
+    <string name="slots_game_title">GuseynApp300ProMaxUltra</string>
+    <string name="slots_spin">КРУТИТЬ!</string>
+
+    <string name="points_100_minus"><![CDATA[<font color=\'#FEA409\'>- 100</font> очков]]></string>
+    <string name="points_150_plus"><![CDATA[Вы выйграли <font color=\'#FEA409\'>150</font> очков!]]></string>
+    <string name="jackpot"><![CDATA[<font color=\'#FEA409\'>ДЖЕКПОТ!</font>]]></string>
+    <string name="lose"><![CDATA[<font color=\'#FFFFFF\'>Вы проиграли</font>]]></string>
+
+    <string name="press_roll"><![CDATA[Нажмите <font color=\'#FEA409\'>КРУТИТЬ</font> чтобы выигрывать!]]></string>
 </resources>

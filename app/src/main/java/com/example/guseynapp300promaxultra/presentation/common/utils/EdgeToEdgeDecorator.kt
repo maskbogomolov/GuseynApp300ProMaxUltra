@@ -1,4 +1,4 @@
-package com.example.guseynapp300promaxultra.utils
+package com.example.guseynapp300promaxultra.presentation.common.utils
 
 import android.content.Context
 import android.graphics.Color

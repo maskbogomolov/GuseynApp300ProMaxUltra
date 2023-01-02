@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     android:orientation="vertical"
-    tools:context=".presentation.ui.screens.onboarding.pages.PageOneFragment">
+    tools:context=".presentation.ui.onboarding.pages.PageOneFragment">
 
     <TextView
         android:id="@+id/textView"
