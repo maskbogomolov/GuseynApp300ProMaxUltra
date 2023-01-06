@@ -6,10 +6,10 @@
     <string name="slots_game_title">GuseynApp300ProMaxUltra</string>
     <string name="slots_spin">КРУТИТЬ!</string>
 
-    <string name="points_100_minus"><![CDATA[<font color=\'#FEA409\'>- 100</font> очков]]></string>
-    <string name="points_150_plus"><![CDATA[Вы выйграли <font color=\'#FEA409\'>150</font> очков!]]></string>
+    <string name="points_100_minus"><![CDATA[<font color=\'#9C27B0\'>- 100</font> очков]]></string>
+    <string name="points_150_plus"><![CDATA[Вы выйграли <font color=\'#9C27B0\'>150</font> очков!]]></string>
     <string name="jackpot"><![CDATA[<font color=\'#FEA409\'>ДЖЕКПОТ!</font>]]></string>
     <string name="lose"><![CDATA[<font color=\'#FFFFFF\'>Вы проиграли</font>]]></string>
 
-    <string name="press_roll"><![CDATA[Нажмите <font color=\'#FEA409\'>КРУТИТЬ</font> чтобы выигрывать!]]></string>
+    <string name="press_roll"><![CDATA[Нажмите <font color=\'#9C27B0\'>КРУТИТЬ</font> чтобы выигрывать!]]></string>
 </resources>

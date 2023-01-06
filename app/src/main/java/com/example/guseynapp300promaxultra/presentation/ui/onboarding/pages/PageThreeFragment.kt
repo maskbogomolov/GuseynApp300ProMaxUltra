@@ -5,17 +5,25 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.guseynapp300promaxultra.R
+import androidx.navigation.fragment.findNavController
+import com.example.guseynapp300promaxultra.databinding.FragmentPageThreeBinding
+import com.example.guseynapp300promaxultra.presentation.ui.onboarding.OnboardFragmentDirections
+import dev.chrisbanes.insetter.applyInsetter
 
 class PageThreeFragment : Fragment() {
 
+    private lateinit var binding: FragmentPageThreeBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_page_three, container, false)
-    }
+    ): View {
+        binding = FragmentPageThreeBinding.inflate(inflater, container, false)
 
+        binding.buttonPlay.setOnClickListener {
+            findNavController().navigate(OnboardFragmentDirections.toSlotFragment())
+        }
+
+        return binding.root
+    }
 }

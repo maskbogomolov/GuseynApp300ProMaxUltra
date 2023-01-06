@@ -45,6 +45,7 @@ dependencies {
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("org.jetbrains.kotlin:kotlin-stdlib:1.7.20")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1")
+    implementation("dev.chrisbanes.insetter:insetter:0.6.1")
 
     //Design
     implementation("androidx.appcompat:appcompat:1.5.1")

@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/guseyn_nav_graph"
-    app:startDestination="@id/onboardingFragment">
+    app:startDestination="@id/onboardFragment">
 
     <fragment
         android:id="@+id/slotFragment"
@@ -11,8 +11,12 @@
         android:label="fragment_slot"
         tools:layout="@layout/fragment_slot" />
     <fragment
-        android:id="@+id/onboardingFragment"
+        android:id="@+id/onboardFragment"
         android:name="com.example.guseynapp300promaxultra.presentation.ui.onboarding.OnboardFragment"
-        android:label="fragment_onboarding"
-        tools:layout="@layout/fragment_onboarding" />
+        android:label="fragment_onboard"
+        tools:layout="@layout/fragment_onboard" >
+        <action
+            android:id="@+id/to_slotFragment"
+            app:destination="@id/slotFragment" />
+    </fragment>
 </navigation>

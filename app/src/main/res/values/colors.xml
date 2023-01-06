@@ -7,4 +7,9 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="slots_main">#9C27B0</color>
+    <color name="slots_light">#F12D13</color>
+    <color name="slots_text">#E8E4D1</color>
+    <color name="slots_card_background">#66320D10</color>
 </resources>
